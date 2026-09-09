@@ -7,4 +7,69 @@ def even_num(a):
 even_num(7)
 
 
-#  djoejrafjf
+# 1
+name = "Ruchi Rajput"
+age = 23
+City = "Bhopal"
+print(name)
+print(age)
+print(City)
+
+# 2
+a = 4
+b = 45
+print(a+b)
+
+# 3
+a = 4
+print(type(a))
+b = float(a)
+print(type(b))
+
+
+# 4
+print(name)
+print(age)
+print(City)
+print(type(name))
+print(type(age))
+print(type(City))
+
+5
+a = 4
+b = 5
+a = b 
+b = a
+print(a)
+print(b)
+
+# 6
+h = float(input("Enter a height of rectangle in cm: "))
+w = float(input("Enter a width of rectangle in cm : "))
+A = h*w
+print("The area of a rectangel in cm =",A,"cm2")
+
+7
+C = float(input("enter temprature in Celsius: "))
+F = (C*1.8)+32
+print("Temperature in Fahrenheit=",F)
+
+# 8
+P = float(input("ENter a intial amount: "))
+R = float(input("Enter a annual rate: "))
+T = float(input("Enter time in years: "))
+SI = P*R*T/100
+print("simple Interest of,",P,"is",SI)
+
+9
+name = input("Enter your good name: ")
+age = int(input("enter your age: "))
+print(f"Hello! my name is {name} and I'm {age} year old.")
+
+
+# 10
+price = int(input("Enter the product price:"))
+Qunt = int(input("Enter the quantity of product: "))
+total_cost = (price*Qunt)
+print(total_cost)
+
