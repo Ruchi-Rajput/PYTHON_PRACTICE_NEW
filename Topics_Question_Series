@@ -169,4 +169,13 @@ print(fruit[len(fruit)-3:len(fruit)-1])
 nm = "harry"
 print(nm[-4:-2]) #ans=ar {great well done ruchi}
 
+#Strings Methods                             Day13
+# Strings are immutable
+a = "!!!! ruchi rajput !!!! ruchi rajput !!!! ruchi rajput!!!!"
+print(len(a))
+print(a.upper())
+print(a.lower)
+print(a.rstrip("!"))   #remove trailing whitespace
+print(a.replace("ruchi","Rachna"))
+print(a.split(" ")) #change string into List
 
