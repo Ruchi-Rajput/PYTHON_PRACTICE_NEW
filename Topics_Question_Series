@@ -73,3 +73,77 @@ Qunt = int(input("Enter the quantity of product: "))
 total_cost = (price*Qunt)
 print(total_cost)
 
+
+# # Calculator using python      #Day7
+# a = int(input("enter num1:"))
+# b = int(input("enter num2:"))
+# print(a+b)     #Addition
+# print(a-b)   #Subtraction
+# print(a*b)      # multiplication
+# print(a/b)   #Division
+# print(a//b) #Floor divison {convert float into int}
+# print(a%b)   #Modulus      {return reminder}
+# print(a**b)  #Exponential   {a multiple by b time}
+
+
+# A Simple Calculator:---          #Day8 Execrise Solution
+a =50 
+b =2
+print("the value of",a, "+", b, "is: ", a + b)
+print("the value of",a, "-", b, "is: ", a - b)
+print("the value of",a, "/", b, "is: ", a / b)
+print("the value of",a, "*", b, "is: ", a * b)
+print("the value of",a, "%", b, "is: ", a % b)
+
+
+# TypeCasting                       #Day9
+# The conversion of one data type into the other data type is known as type 
+# casting in python or type  conversion in python.
+
+a = "1"
+a = "1"
+b = "2"
+b = "2"
+print(int(a)+int(b))
+
+# Implicit TypeCasting
+c= 1.9
+d=8
+e=c+d
+print(e)
+print(type(c))
+print(type(d))
+print(type(e))
+
+
+# # Input in python                            #Day10
+a = input()
+print("my name is",a)
+x =input("enter first number: ")
+y =input("eIntet second number: ")
+print(x +y)
+print(int(x) + int(y))
+
+
+# # String:-----                                     #Day11
+name = "ruchi"
+apple = '''he said,
+hi harry 
+hey i am good 
+i want  to eat an apple'''
+print("hello," + name)
+print(apple)
+
+# Sequence index in str:---
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+# print(name[5])   #throws an error
+
+# # Using loop throw string
+# print("lets use a for loop\n")
+# for character in apple:
+#     print(character)
+
