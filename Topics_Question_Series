@@ -179,3 +179,14 @@ print(a.rstrip("!"))   #remove trailing whitespace
 print(a.replace("ruchi","Rachna"))
 print(a.split(" ")) #change string into List
 
+
+
+
+hding = "introduction tO jS For  biGGnERs" 
+print(hding)
+print(hding.capitalize())
+print(len(hding))
+print(hding.center(50))
+print(hding.count("o"))
+print(hding.endswith("!!!"))
+print(hding.endswith("jS",4,18))
