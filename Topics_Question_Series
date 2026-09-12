@@ -202,3 +202,17 @@ print(hding.isalpha())
 print(hding.islower())
 print(a.swapcase())   #it's convert upper case to lower & lower case to upper
 print(a.isprintable())
+
+
+r ="     "     #using spacebar
+print(r.isspace())
+R = "   a    "     #using Tab
+print(R.isspace())
+
+j = "World Health Organization"
+print(j.istitle()) 
+print(j.startswith("W"))
+print(j.swapcase())
+ws = "WelcomeToTheConsole"
+print(ws.isalnum())
+ws2 = "Welcome00"
