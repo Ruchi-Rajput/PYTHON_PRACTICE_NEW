@@ -216,3 +216,12 @@ print(j.swapcase())
 ws = "WelcomeToTheConsole"
 print(ws.isalnum())
 ws2 = "Welcome00"
+
+
+# Conditional Statement(if-Else)                       Day14
+cod_al = int(input("Enter your age: "))
+print("Your age is:",cod_al)
+if(cod_al>18):
+    print("you can drive")
+else:
+    print("You can't drive")
