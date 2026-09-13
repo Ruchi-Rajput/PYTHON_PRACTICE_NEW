@@ -225,3 +225,11 @@ if(cod_al>18):
     print("you can drive")
 else:
     print("You can't drive")
+
+
+#conditional Operators
+# >,<,>=,<=,==,!=
+print(cod_al>18)
+print(cod_al<18)
+print(cod_al==18)
+print(cod_al!=18)
