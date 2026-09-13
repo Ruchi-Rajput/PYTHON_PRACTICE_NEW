@@ -120,8 +120,8 @@ print(type(e))
 a = input()
 print("my name is",a)
 x =input("enter first number: ")
-y =input("eIntet second number: ")
-print(x +y)
+y =input("enter second number: ")
+print(x + y)
 print(int(x) + int(y))
 
 
@@ -155,7 +155,7 @@ print(len(names))
 fruit ="apna collage"
 len1 = len(fruit)
 print("mango is a",len1,"letter word.")
-print(fruit[1:6]) # 1 is include but 4 isn't included
+print(fruit[1:6]) # 1 is include but 6 isn't included
 print(fruit[1:4])
 print(fruit[:])
 print(fruit[0:-3])
