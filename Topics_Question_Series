@@ -233,3 +233,17 @@ print(cod_al>18)
 print(cod_al<18)
 print(cod_al==18)
 print(cod_al!=18)
+
+
+
+#if-elif-else condition:-
+num = int(input("enter the value of num: "))
+if(num<0):
+    print("Number is negative.")
+elif(num==0):
+    print("Number is Zero.")
+elif(num==99):
+    print("Number is Special")
+else:
+    print("Number is positive")
+print("I am happy now")
