@@ -247,3 +247,20 @@ elif(num==99):
 else:
     print("Number is positive")
 print("I am happy now")
+
+
+
+#Nested if-elif
+num = int(input("enter the value of num: "))
+if(num<0):
+    print("Number is negative.")
+elif(num>0):
+    if(num<=10):
+        print("Number is between 1-10")
+    elif(num>=20 and num<=30):
+        print("Number is between 21-30")
+    else:
+        print("Number is Greater than 30")
+else:
+    print("Number is Zero")
+print("I am happy now")
