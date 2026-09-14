@@ -285,3 +285,12 @@ match x:
     # so it is basically just an else:
     case _:
         print(x)
+
+
+        # For Loops:---                      Day17
+Name = "Abhishek"
+for i in Name:
+    print(i)
+    if(i=="b"):
+        print("This is found")
+        break
