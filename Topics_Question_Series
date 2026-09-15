@@ -1,296 +1,107 @@
-def even_num(a):
-    if a % 2 == 0:
-        print("even number")
-    else:
-        print("not even")
+# def even_num(a):
+#     if a % 2 == 0:
+#         print("even number")
+#     else:
+#         print("not even")
 
-even_num(7)
-
-
-# 1
-name = "Ruchi Rajput"
-age = 23
-City = "Bhopal"
-print(name)
-print(age)
-print(City)
-
-# 2
-a = 4
-b = 45
-print(a+b)
-
-# 3
-a = 4
-print(type(a))
-b = float(a)
-print(type(b))
+# even_num(7)
 
 
-# 4
-print(name)
-print(age)
-print(City)
-print(type(name))
-print(type(age))
-print(type(City))
+# # 1
+# name = "Ruchi Rajput"
+# age = 23
+# City = "Bhopal"
+# print(name)
+# print(age)
+# print(City)
 
-5
-a = 4
-b = 5
-a = b 
-b = a
-print(a)
-print(b)
+# # 2
+# a = 4
+# b = 45
+# print(a+b)
 
-# 6
-h = float(input("Enter a height of rectangle in cm: "))
-w = float(input("Enter a width of rectangle in cm : "))
-A = h*w
-print("The area of a rectangel in cm =",A,"cm2")
-
-7
-C = float(input("enter temprature in Celsius: "))
-F = (C*1.8)+32
-print("Temperature in Fahrenheit=",F)
-
-# 8
-P = float(input("ENter a intial amount: "))
-R = float(input("Enter a annual rate: "))
-T = float(input("Enter time in years: "))
-SI = P*R*T/100
-print("simple Interest of,",P,"is",SI)
-
-9
-name = input("Enter your good name: ")
-age = int(input("enter your age: "))
-print(f"Hello! my name is {name} and I'm {age} year old.")
+# # 3
+# a = 4
+# print(type(a))
+# b = float(a)
+# print(type(b))
 
 
-# 10
-price = int(input("Enter the product price:"))
-Qunt = int(input("Enter the quantity of product: "))
-total_cost = (price*Qunt)
-print(total_cost)
+# # 4
+# print(name)
+# print(age)
+# print(City)
+# print(type(name))
+# print(type(age))
+# print(type(City))
+
+# 5
+# a = 4
+# b = 5
+# a = b 
+# b = a
+# print(a)
+# print(b)
+
+# # 6
+# h = float(input("Enter a height of rectangle in cm: "))
+# w = float(input("Enter a width of rectangle in cm : "))
+# A = h*w
+# print("The area of a rectangel in cm =",A,"cm2")
+
+# 7
+# C = float(input("enter temprature in Celsius: "))
+# F = (C*1.8)+32
+# print("Temperature in Fahrenheit=",F)
+
+# # 8
+# P = float(input("ENter a intial amount: "))
+# R = float(input("Enter a annual rate: "))
+# T = float(input("Enter time in years: "))
+# SI = P*R*T/100
+# print("simple Interest of,",P,"is",SI)
+
+# # 9
+# name = input("Enter your good name: ")
+# age = int(input("enter your age: "))
+# print(f"Hello! my name is {name} and I'm {age} year old.")
 
 
-# # Calculator using python      #Day7
-# a = int(input("enter num1:"))
-# b = int(input("enter num2:"))
-# print(a+b)     #Addition
-# print(a-b)   #Subtraction
-# print(a*b)      # multiplication
-# print(a/b)   #Division
-# print(a//b) #Floor divison {convert float into int}
-# print(a%b)   #Modulus      {return reminder}
-# print(a**b)  #Exponential   {a multiple by b time}
+# # 10
+# price = int(input("Enter the product price:"))
+# Qunt = int(input("Enter the quantity of product: "))
+# total_cost = (price*Qunt)
+# print(total_cost)
 
 
-# A Simple Calculator:---          #Day8 Execrise Solution
-a =50 
-b =2
-print("the value of",a, "+", b, "is: ", a + b)
-print("the value of",a, "-", b, "is: ", a - b)
-print("the value of",a, "/", b, "is: ", a / b)
-print("the value of",a, "*", b, "is: ", a * b)
-print("the value of",a, "%", b, "is: ", a % b)
+# Input & Output
+# 11
+# name = input("Enter your name: ")
+# print("Hi, I am",name)
 
+# 12
+# num1 = int(input("Enter  numberr: "))
+# num2 = int(input("Enter  numberr: "))
+# summ = num1+num2 
+# print(summ)
 
-# TypeCasting                       #Day9
-# The conversion of one data type into the other data type is known as type 
-# casting in python or type  conversion in python.
+# 13
+# length = int(input("Enter length in cm: "))
+# width = int(input("Enter width in cm: "))
+# area = length*width
+# print(area)
 
-a = "1"
-a = "1"
-b = "2"
-b = "2"
-print(int(a)+int(b))
+# # 14
+# mark1 = int(input("Enter marks: "))
+# mark2 = int(input("Enter marks: "))
+# mark3 = int(input("Enter marks: "))
+# avg = (mark1+mark2+mark3)/3
+# print(avg)
 
-# Implicit TypeCasting
-c= 1.9
-d=8
-e=c+d
-print(e)
-print(type(c))
-print(type(d))
-print(type(e))
-
-
-# # Input in python                            #Day10
-a = input()
-print("my name is",a)
-x =input("enter first number: ")
-y =input("enter second number: ")
-print(x + y)
-print(int(x) + int(y))
-
-
-# # String:-----                                     #Day11
-name = "ruchi"
-apple = '''he said,
-hi harry 
-hey i am good 
-i want  to eat an apple'''
-print("hello," + name)
-print(apple)
-
-# Sequence index in str:---
-print(name[0])
-print(name[1])
-print(name[2])
-print(name[3])
-print(name[4])
-# print(name[5])   #throws an error
-
-# # Using loop throw string
-# print("lets use a for loop\n")
-# for character in apple:
-#     print(character)
-
-
-# String:-- Slicing & Method                      #Day12
-names = "ruchi,rachna,krishna"
-print(names[0:5])
-print(len(names))
-fruit ="apna collage"
-len1 = len(fruit)
-print("mango is a",len1,"letter word.")
-print(fruit[1:6]) # 1 is include but 6 isn't included
-print(fruit[1:4])
-print(fruit[:])
-print(fruit[0:-3])
-print(fruit[0:len(fruit)-3])
-# print(fruit[len(fruit)-1:len(fruit)-3]) is  like 4:2 won't make sence
-# here we are:--
-print(fruit[len(fruit)-3:len(fruit)-1])
-#                   12-3:12-1
-#                      9:11 = ag 11th index not included
-# Quick Quiz:--
-nm = "harry"
-print(nm[-4:-2]) #ans=ar {great well done ruchi}
-
-#Strings Methods                             Day13
-# Strings are immutable
-a = "!!!! ruchi rajput !!!! ruchi rajput !!!! ruchi rajput!!!!"
-print(len(a))
-print(a.upper())
-print(a.lower)
-print(a.rstrip("!"))   #remove trailing whitespace
-print(a.replace("ruchi","Rachna"))
-print(a.split(" ")) #change string into List
+# 15
+radius = int(input("Enter radius of circle: "))
+Area = radius*radius
+print(Area)
 
 
 
-
-hding = "introduction tO jS For  biGGnERs" 
-print(hding)
-print(hding.capitalize())
-print(len(hding))
-print(hding.center(50))
-print(hding.count("o"))
-print(hding.endswith("!!!"))
-print(hding.endswith("jS",4,18))
-
-
-str1 = "He is name is Dan. He is an honest man."
-print(str1.find("ishh"))
-print(str1.title())   #converts first letter of a word into upper
-print(str1.index("ishh"))
-print(hding.isalnum())
-a = "hello world"
-print(hding.isalpha())
-print(hding.islower())
-print(a.swapcase())   #it's convert upper case to lower & lower case to upper
-print(a.isprintable())
-
-
-r ="     "     #using spacebar
-print(r.isspace())
-R = "   a    "     #using Tab
-print(R.isspace())
-
-j = "World Health Organization"
-print(j.istitle()) 
-print(j.startswith("W"))
-print(j.swapcase())
-ws = "WelcomeToTheConsole"
-print(ws.isalnum())
-ws2 = "Welcome00"
-
-
-# Conditional Statement(if-Else)                       Day14
-cod_al = int(input("Enter your age: "))
-print("Your age is:",cod_al)
-if(cod_al>18):
-    print("you can drive")
-else:
-    print("You can't drive")
-
-
-#conditional Operators
-# >,<,>=,<=,==,!=
-print(cod_al>18)
-print(cod_al<18)
-print(cod_al==18)
-print(cod_al!=18)
-
-
-
-#if-elif-else condition:-
-num = int(input("enter the value of num: "))
-if(num<0):
-    print("Number is negative.")
-elif(num==0):
-    print("Number is Zero.")
-elif(num==99):
-    print("Number is Special")
-else:
-    print("Number is positive")
-print("I am happy now")
-
-
-
-#Nested if-elif
-num = int(input("enter the value of num: "))
-if(num<0):
-    print("Number is negative.")
-elif(num>0):
-    if(num<=10):
-        print("Number is between 1-10")
-    elif(num>=20 and num<=30):
-        print("Number is between 21-30")
-    else:
-        print("Number is Greater than 30")
-else:
-    print("Number is Zero")
-print("I am happy now")
-
-
-# #Match case Statement:---                 Day16
-x = int(input("Enter the value of x: "))
-# x is a variable to match
-match x:
-    #if x is 0
-    case 0:
-        print("x is zero")
-    #case with if-condition
-    case 4:
-        print("case is 4")
-    #Empty case with if-condition
-    case _ if x!=90:
-        print(x," is not 90")
-    case _ if x!=80:
-        print(x,"is not 80")
-    #default case(will only ve matched if the above cases wern't matched)
-    # so it is basically just an else:
-    case _:
-        print(x)
-
-
-        # For Loops:---                      Day17
-Name = "Abhishek"
-for i in Name:
-    print(i)
-    if(i=="b"):
-        print("This is found")
-        break
