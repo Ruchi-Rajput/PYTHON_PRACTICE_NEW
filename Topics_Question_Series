@@ -108,3 +108,11 @@
 # mint = int(input("Enter the minute to convert: "))
 # hours = (mint/60)
 # print(hours)
+
+
+# 17
+# days = int(input("Enter days to convert into year: "))
+# year = (days/365)
+# month = (days/12)
+# print("year",year)
+# print("month",month)
