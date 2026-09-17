@@ -116,3 +116,8 @@
 # month = (days/12)
 # print("year",year)
 # print("month",month)
+
+# 18
+# salary = int(input("Enter your salary: "))
+# anul = (salary*12)
+# print("Annual salary:",anul)
