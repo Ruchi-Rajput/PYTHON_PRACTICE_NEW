@@ -99,9 +99,12 @@
 # print(avg)
 
 # 15
-radius = int(input("Enter radius of circle: "))
-Area = radius*radius
-print(Area)
+# radius = int(input("Enter radius of circle: "))
+# Area = radius*radius
+# print(Area)
 
 
-
+# 16
+# mint = int(input("Enter the minute to convert: "))
+# hours = (mint/60)
+# print(hours)
