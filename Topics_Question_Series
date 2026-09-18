@@ -157,3 +157,24 @@ elif(num>0):
 else:
     print("Number is Zero")
 print("I am happy now")
+
+
+# # Match case Statement:---                 Day16
+x = int(input("Enter the value of x: "))
+# x is a variable to match
+match x:
+    #if x is 0
+    case 0:
+        print("x is zero")
+    #case with if-condition
+    case 4:
+        print("case is 4")
+    #Empty case with if-condition
+    case _ if x!=90:
+        print(x," is not 90")
+    case _ if x!=80:
+        print(x,"is not 80")
+    #default case(will only ve matched if the above cases wern't matched)
+    # so it is basically just an else:
+    case _:
+        print(x)
