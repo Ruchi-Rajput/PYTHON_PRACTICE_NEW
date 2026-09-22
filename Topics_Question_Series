@@ -207,3 +207,12 @@ for i in Name:
     if(i=="b"):
         print("This is found")
         break
+
+colors = ["Red","Green","Blue","Yellow"]
+for color in colors:
+    print(color)
+    for x in color:
+        print(x)
+        if(x=="G"):
+            print("found")
+            break
