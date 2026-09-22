@@ -198,3 +198,12 @@ a = 33
 b = 200
 if not a > b:
   print("a is NOT greater than b")
+
+
+  # For Loops:---                      Day17
+Name = "Abhishek"
+for i in Name:
+    print(i)
+    if(i=="b"):
+        print("This is found")
+        break
