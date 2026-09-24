@@ -105,9 +105,21 @@
 
 
 # 16
-# mint = int(input("Enter the minute to convert: "))
-# hours = (mint/60)
-# print(hours)
+# print("------- Mint/Hours Converter --------")
+# print("1.Mintue to Hours")
+# print("2.Hours to Mintue")
+
+# Choice = input("Enter Your choice (1/2): ")
+# Convert = int(input("Enter the Mint/Hours:"))
+# if Choice == "1":
+#     result = (Convert/60)
+#     print(f"{Convert}Mint = {result}Hours")
+# elif Choice == "2":
+#     result = (Convert*60)
+#     print(f"{Convert}Hours = {result}Mint")
+# else:
+#     print("Invalid Number")
+
 
 
 # 17
@@ -129,98 +141,3 @@ final_price = (price-discount)
 print("discount",discount)
 print("final_price",final_price)
 
-
-# #if-elif-else condition:-
-num = int(input("enter the value of num: "))
-if(num<0):
-    print("Number is negative.")
-elif(num==0):
-    print("Number is Zero.")
-elif(num==99):
-    print("Number is Special")
-else:
-    print("Number is positive")
-print("I am happy now")
-
-
-#Nested if-elif
-num = int(input("enter the value of num: "))
-if(num<0):
-    print("Number is negative.")
-elif(num>0):
-    if(num<=10):
-        print("Number is between 1-10")
-    elif(num>=20 and num<=30):
-        print("Number is between 21-30")
-    else:
-        print("Number is Greater than 30")
-else:
-    print("Number is Zero")
-print("I am happy now")
-
-
-# # Match case Statement:---                 Day16
-x = int(input("Enter the value of x: "))
-# x is a variable to match
-match x:
-    #if x is 0
-    case 0:
-        print("x is zero")
-    #case with if-condition
-    case 4:
-        print("case is 4")
-    #Empty case with if-condition
-    case _ if x!=90:
-        print(x," is not 90")
-    case _ if x!=80:
-        print(x,"is not 80")
-    #default case(will only ve matched if the above cases wern't matched)
-    # so it is basically just an else:
-    case _:
-        print(x)
-
-#  Logical Operator:-
-a = 200
-b = 33
-c = 500
-if a > b and c > a:
-  print("Both conditions are True")
-
-# Logical Operator(OR):-
-a = 200
-b = 33
-c = 500
-if a > b or a > c:
-  print("At least one of the conditions is True")
-
-# Logica Operator(Not):-
-a = 33
-b = 200
-if not a > b:
-  print("a is NOT greater than b")
-
-
-  # For Loops:---                      Day17
-Name = "Abhishek"
-for i in Name:
-    print(i)
-    if(i=="b"):
-        print("This is found")
-        break
-
-colors = ["Red","Green","Blue","Yellow"]
-for color in colors:
-    print(color)
-    for x in color:
-        print(x)
-        if(x=="G"):
-            print("found")
-            break
-
-
-# range:---
-for k in range(101):
-    print(k,end=" ")
-
-for k in range(1,99,4):
-    print(k,end=" ")
