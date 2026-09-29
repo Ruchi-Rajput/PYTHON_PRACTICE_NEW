@@ -141,12 +141,3 @@ final_price = (price-discount)
 print("discount",discount)
 print("final_price",final_price)
 
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-
-  fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break
