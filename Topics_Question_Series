@@ -134,10 +134,10 @@
 # anul = (salary*12)
 # print("Annual salary:",anul)
 
-# 19
-price = int(input("Enter the price of product:"))
-discount = (price*0.15)
-final_price = (price-discount)
-print("discount",discount)
-print("final_price",final_price)
+# # 19
+# price = int(input("Enter the price of product:"))
+# discount = (price*0.15)
+# final_price = (price-discount)
+# print("discount",discount)
+# print("final_price",final_price)
 
