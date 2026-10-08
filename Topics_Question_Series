@@ -169,3 +169,9 @@ if len(username) > 0:
   print(f"Welcome, {username}!")
 else:
   print("Error: Username cannot be empty")
+
+  a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
