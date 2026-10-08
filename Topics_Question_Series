@@ -134,10 +134,41 @@
 # anul = (salary*12)
 # print("Annual salary:",anul)
 
-# 19
-price = int(input("Enter the price of product:"))
-discount = (price*0.15)
-final_price = (price-discount)
-print("discount",discount)
-print("final_price",final_price)
+# # 19
+# price = int(input("Enter the price of product:"))
+# discount = (price*0.15)
+# final_price = (price-discount)
+# print("discount",discount)
+# print("final_price",final_price)
 
+# 20 Bill calculator
+# price = float(input("Enter the price: "))
+# Quatity = int(input("Enter the quantity: "))
+
+# subtotal = price*Quatity
+# # dis_per = 0.15
+
+# dis_amt = subtotal*15/100
+# print("dis_amt",dis_amt)
+
+# amt_after_dis = subtotal-dis_amt
+# print("amount after dis",amt_after_dis)
+
+
+# gst_amt = amt_after_dis*5/100
+# print("gst",gst_amt)
+
+# final_bill = amt_after_dis+gst_amt
+# print(final_bill)
+
+# 2
+product = input("Enter product name:")
+price = float(input("Entter prices: "))
+quantity = int(input("Enterr quantity:"))
+
+total = price*quantity
+
+print()
+print(f"{'Product':<15}{'Price':<12}{'Quantity':<12}{'Total':<12}")
+print("-"*51)
+print(f"{product:<15}{price:<12.2f}{quantity:<12}{total:<12.2f}")
