@@ -172,3 +172,9 @@ print()
 print(f"{'Product':<15}{'Price':<12}{'Quantity':<12}{'Total':<12}")
 print("-"*51)
 print(f"{product:<15}{price:<12.2f}{quantity:<12}{total:<12.2f}")
+
+
+
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
