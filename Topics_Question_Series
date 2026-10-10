@@ -178,3 +178,7 @@ print(f"{product:<15}{price:<12.2f}{quantity:<12}{total:<12.2f}")
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
+
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
