@@ -227,3 +227,12 @@ for x in range(2, 30, 3):
 
 r = range(0, 10, 2)
 print(len(r))
+
+# Array:-
+cars = ["Ford", "Volvo", "BMW"]
+
+car1 = "Ford"
+car2 = "Volvo"
+car3 = "BMW"
+
+x = cars[0]
