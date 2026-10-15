@@ -236,3 +236,10 @@ car2 = "Volvo"
 car3 = "BMW"
 
 x = cars[0]
+
+x = len(cars)
+
+for x in cars:
+  print(x)
+
+cars.append("Honda")
