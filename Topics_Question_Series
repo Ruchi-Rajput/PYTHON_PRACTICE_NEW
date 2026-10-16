@@ -246,3 +246,12 @@ cars.append("Honda")
 
 cars.pop(1)
 cars.remove("Volvo")
+
+
+# Iterators:-
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
