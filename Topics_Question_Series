@@ -266,3 +266,10 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 print(next(myit))
+
+
+# Using loop for iteration:-
+mytuple = ("apple", "banana", "cherry")
+
+for x in mytuple:
+  print(x)
