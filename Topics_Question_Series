@@ -300,3 +300,13 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 print(next(myiter))
+
+
+
+# Module:-
+def greeting(name):
+  print("Hello, " + name)
+
+import mymodule
+
+mymodule.greeting("Jonathan")
