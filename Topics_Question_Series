@@ -352,3 +352,14 @@ def isgreater(a,b):
      print("First number is greater")
     else:
      print("Second number is greater")
+
+
+def islesser(a,b): 
+  if(a<b):
+   print("First number is lesser")
+  else:
+   print("Second number is lesser")
+
+calculateGmean(10,6)
+isgreater(3,4)
+islesser(6,2)
