@@ -339,3 +339,9 @@ def is_prime(n):
         if n%i == 0:
             return False
     return True
+
+
+#Functions in python:--                  
+def calculateGmean(a,b):
+   mean=(a*b)/(a+b)
+   print(mean)
