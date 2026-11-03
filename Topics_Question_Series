@@ -363,3 +363,14 @@ def islesser(a,b):
 calculateGmean(10,6)
 isgreater(3,4)
 islesser(6,2)
+
+
+#Function Argument:----                  
+# Defualt Argument
+def average(a=3,b=1):
+   print("The average is ",(a+b)/2)
+average(b=9)  #Required argumment
+average()
+average(a=30)
+average(a=400,b=900)
+average(b=45,a=40)    #Keyboard argument
