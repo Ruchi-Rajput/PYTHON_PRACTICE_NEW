@@ -374,3 +374,10 @@ average()
 average(a=30)
 average(a=400,b=900)
 average(b=45,a=40)    #Keyboard argument
+
+
+def name(fname,mname="L",lname="whatson"):  #Defualt Argu.
+   print("Hello ,",fname,mname,lname)
+name("peter","jackson","wang")
+name("Kim",lname="Namjoon",)
+name("B.",mname="H.")
