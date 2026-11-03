@@ -381,3 +381,15 @@ def name(fname,mname="L",lname="whatson"):  #Defualt Argu.
 name("peter","jackson","wang")
 name("Kim",lname="Namjoon",)
 name("B.",mname="H.")
+
+
+
+def average(*numbers):       #Variable-lenth function
+   sum=0
+   for i in numbers:
+      sum= sum+1
+#    print("Average is: ",sum/len(numbers))
+   return sum/len(numbers)
+
+R = average(2,3,4,5,6)
+print(R)
