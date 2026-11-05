@@ -409,3 +409,13 @@ if is_prime(num):
     print("It's a prime number.")
 else:
     print("Not a prime number.")
+
+
+j = "World Health Organization"
+print(j.istitle()) 
+print(j.startswith("W"))
+print(j.swapcase())
+ws = "WelcomeToTheConsole"
+print(ws.isalnum())
+ws2 = "Welcome00"
+# print(ws2.isalpha())
